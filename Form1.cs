@@ -1,4 +1,4 @@
-ï»¿using System.Diagnostics;
+using System.Diagnostics;
 
 namespace cs_form_230615
 {
@@ -8,20 +8,19 @@ namespace cs_form_230615
         {
             InitializeComponent();
         }
-
-        private void å®Ÿè¡Œ1_ãƒ•ã‚©ãƒ¼ãƒ _CancelButton_Click(object sender, EventArgs e)
+        private void Às1_ƒtƒH[ƒ€_CancelButton_Click(object sender, EventArgs e)
         {
-            Debug.WriteLine("ESC ãŒæŠ¼ã•ã‚ŒãŸ");
+            Debug.WriteLine("ESC ‚ª‰Ÿ‚³‚ê‚½");
         }
 
-        private void å®Ÿè¡Œ2_ãƒ•ã‚©ãƒ¼ãƒ _AcceptButton_Click(object sender, EventArgs e)
+        private void Às2_ƒtƒH[ƒ€_AcceptButton_Click(object sender, EventArgs e)
         {
-            Debug.WriteLine("Enter ãŒæŠ¼ã•ã‚ŒãŸ");
+            Debug.WriteLine("Enter ‚ª‰Ÿ‚³‚ê‚½");
         }
 
         // *****************************************
-        // Form1.AllowDrop = true ãŒå¿…è¦ã§
-        // Form1_DragEnter ã®å‡¦ç†ã‚‚å¿…è¦ã§ã™
+        // Form1.AllowDrop = true ‚ª•K—v‚Å
+        // Form1_DragEnter ‚Ìˆ—‚à•K—v‚Å‚·
         // *****************************************
         private void Form1_DragDrop(object sender, DragEventArgs e)
         {
@@ -31,7 +30,7 @@ namespace cs_form_230615
             if (files.Length > 0)
             {
                 string imagePath = files[0];
-                ç”»åƒè¡¨ç¤º.Image = Image.FromFile(imagePath);
+                ‰æ‘œ•\¦.Image = Image.FromFile(imagePath);
             }
 
         }
@@ -45,48 +44,48 @@ namespace cs_form_230615
         }
 
 
-        private void ã•ã‚ˆã†ãªã‚‰_Click(object sender, EventArgs e)
+        private void ‚³‚æ‚¤‚È‚ç_Click(object sender, EventArgs e)
         {
-            Debug.WriteLine("ã•ã‚ˆã†ãªã‚‰");
+            Debug.WriteLine("‚³‚æ‚¤‚È‚ç");
 
         }
 
-        private void ä»Šæ—¥ã¯ã„ã„å¤©æ°—ã _Click(object sender, EventArgs e)
+        private void ¡“ú‚Í‚¢‚¢“V‹C‚¾_Click(object sender, EventArgs e)
         {
-            Debug.WriteLine("ä»Šæ—¥ã¯ã„ã„å¤©æ°—ã ");
+            Debug.WriteLine("¡“ú‚Í‚¢‚¢“V‹C‚¾");
 
         }
 
-        private void ã“ã‚“ã«ã¡ã¯_Click(object sender, EventArgs e)
+        private void ‚±‚ñ‚É‚¿‚Í_Click(object sender, EventArgs e)
         {
-            Debug.WriteLine("ã“ã‚“ã«ã¡ã¯");
+            Debug.WriteLine("‚±‚ñ‚É‚¿‚Í");
 
         }
 
-        private void æ–°è¦ä½œæˆ_ãƒ¡ãƒ‹ãƒ¥ãƒ¼é …ç›®_Click(object sender, EventArgs e)
+        private void V‹Kì¬_ƒƒjƒ…[€–Ú_Click(object sender, EventArgs e)
         {
-            Debug.WriteLine("æ–°è¦ä½œæˆ");
+            Debug.WriteLine("V‹Kì¬");
 
         }
 
-        private void ãƒ„ãƒ¼ãƒ«ãƒãƒ¼å†…ãƒœã‚¿ãƒ³_Click(object sender, EventArgs e)
+        private void ƒc[ƒ‹ƒo[“àƒ{ƒ^ƒ“_Click(object sender, EventArgs e)
         {
-            Debug.WriteLine("ãƒ„ãƒ¼ãƒ«ãƒãƒ¼");
+            Debug.WriteLine("ƒc[ƒ‹ƒo[");
 
         }
 
-        private void ãƒ•ã‚¡ã‚¤ãƒ«ã‚’é–‹ã_Click(object sender, EventArgs e)
+        private void ƒtƒ@ƒCƒ‹‚ğŠJ‚­_Click(object sender, EventArgs e)
         {
 
-            ãƒ•ã‚¡ã‚¤ãƒ«ã‚’é–‹ããƒ€ã‚¤ã‚¢ãƒ­ã‚°.Filter = "Text Files|*.txt";
-            ãƒ•ã‚¡ã‚¤ãƒ«ã‚’é–‹ããƒ€ã‚¤ã‚¢ãƒ­ã‚°.Title = "Select a Text File";
+            ƒtƒ@ƒCƒ‹‚ğŠJ‚­ƒ_ƒCƒAƒƒO.Filter = "Text Files|*.txt";
+            ƒtƒ@ƒCƒ‹‚ğŠJ‚­ƒ_ƒCƒAƒƒO.Title = "Select a Text File";
 
-            if (ãƒ•ã‚¡ã‚¤ãƒ«ã‚’é–‹ããƒ€ã‚¤ã‚¢ãƒ­ã‚°.ShowDialog() == DialogResult.OK)
+            if (ƒtƒ@ƒCƒ‹‚ğŠJ‚­ƒ_ƒCƒAƒƒO.ShowDialog() == DialogResult.OK)
             {
-                Debug.WriteLine(ãƒ•ã‚¡ã‚¤ãƒ«ã‚’é–‹ããƒ€ã‚¤ã‚¢ãƒ­ã‚°.FileName);
+                Debug.WriteLine(ƒtƒ@ƒCƒ‹‚ğŠJ‚­ƒ_ƒCƒAƒƒO.FileName);
 
-                StreamReader sr = new StreamReader(ãƒ•ã‚¡ã‚¤ãƒ«ã‚’é–‹ããƒ€ã‚¤ã‚¢ãƒ­ã‚°.FileName);
-                ãƒ†ã‚­ã‚¹ãƒˆãƒ•ã‚¡ã‚¤ãƒ«å†…å®¹è¡¨ç¤º.Text = sr.ReadToEnd();
+                StreamReader sr = new StreamReader(ƒtƒ@ƒCƒ‹‚ğŠJ‚­ƒ_ƒCƒAƒƒO.FileName);
+                ƒeƒLƒXƒgƒtƒ@ƒCƒ‹“à—e•\¦.Text = sr.ReadToEnd();
                 sr.Close();
             }
         }
