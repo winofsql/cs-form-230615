@@ -159,7 +159,7 @@
             // ツールバー内ボタン
             // 
             ツールバー内ボタン.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            ツールバー内ボタン.Image = (Image)resources.GetObject("ツールバー内ボタン.Image");
+//            ツールバー内ボタン.Image = (Image)resources.GetObject("ツールバー内ボタン.Image");
             ツールバー内ボタン.ImageTransparentColor = Color.Magenta;
             ツールバー内ボタン.Name = "ツールバー内ボタン";
             ツールバー内ボタン.Size = new Size(23, 22);
