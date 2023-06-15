@@ -86,7 +86,7 @@
             画像表示.Location = new Point(216, 63);
             画像表示.Name = "画像表示";
             画像表示.Size = new Size(511, 206);
-            画像表示.SizeMode = PictureBoxSizeMode.AutoSize;
+            画像表示.SizeMode = PictureBoxSizeMode.Zoom;
             画像表示.TabIndex = 3;
             画像表示.TabStop = false;
             // 
@@ -159,7 +159,7 @@
             // ツールバー内ボタン
             // 
             ツールバー内ボタン.DisplayStyle = ToolStripItemDisplayStyle.Image;
-//            ツールバー内ボタン.Image = (Image)resources.GetObject("ツールバー内ボタン.Image");
+            ツールバー内ボタン.Image = (Image)resources.GetObject("ツールバー内ボタン.Image");
             ツールバー内ボタン.ImageTransparentColor = Color.Magenta;
             ツールバー内ボタン.Name = "ツールバー内ボタン";
             ツールバー内ボタン.Size = new Size(23, 22);
