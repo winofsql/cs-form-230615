@@ -25,3 +25,24 @@ if (openFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
 ```
 
 ### [ファイルを開くダイアログ( ChatGPT に質問 )](https://chat.openai.com/share/65f49bc7-1002-4fd9-9fac-85d13cf5e0b0)
+
+```cs
+OpenFileDialog openFileDialog = new OpenFileDialog();
+openFileDialog.Filter = "テキストファイル (*.txt)|*.txt";
+
+if (openFileDialog.ShowDialog() == DialogResult.OK)
+{
+    try
+    {
+        // 選択されたファイルのパスからテキストを読み込みます
+        string text = File.ReadAllText(openFileDialog.FileName);
+
+        // テキストボックスに読み込んだテキストを表示します
+        textBox.Text = text;
+    }
+    catch (Exception ex)
+    {
+        MessageBox.Show("ファイルを読み込む際にエラーが発生しました: " + ex.Message);
+    }
+}
+```
