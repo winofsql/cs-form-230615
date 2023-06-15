@@ -23,3 +23,5 @@ if (openFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
     sr.Close();
 }
 ```
+
+### [ファイルを開くダイアログ( ChatGPT に質問 )](https://chat.openai.com/share/65f49bc7-1002-4fd9-9fac-85d13cf5e0b0)
