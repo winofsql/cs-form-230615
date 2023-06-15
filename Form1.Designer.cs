@@ -86,7 +86,7 @@
             画像表示.Location = new Point(216, 63);
             画像表示.Name = "画像表示";
             画像表示.Size = new Size(511, 206);
-            画像表示.SizeMode = PictureBoxSizeMode.StretchImage;
+            画像表示.SizeMode = PictureBoxSizeMode.AutoSize;
             画像表示.TabIndex = 3;
             画像表示.TabStop = false;
             // 

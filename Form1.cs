@@ -1,4 +1,4 @@
-using System.Diagnostics;
+﻿using System.Diagnostics;
 
 namespace cs_form_230615
 {
@@ -11,12 +11,12 @@ namespace cs_form_230615
 
         private void 実行1_フォーム_CancelButton_Click(object sender, EventArgs e)
         {
-            Debug.WriteLine("ESC が押されました");
+            Debug.WriteLine("ESC が押された");
         }
 
         private void 実行2_フォーム_AcceptButton_Click(object sender, EventArgs e)
         {
-            Debug.WriteLine("Enter が押されました");
+            Debug.WriteLine("Enter が押された");
         }
 
         // *****************************************
