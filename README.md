@@ -1,5 +1,9 @@
 # subject-230615
 
+![image](https://github.com/winofsql/subject-230615/assets/1501327/e5b9107a-7202-4e15-8961-d334739796ef)
+
+
+
 ### [ChatGpt で聞いた Form に関数処理](https://chat.openai.com/share/00494f66-40f7-4a02-984b-cfb64e612308)
 
 ```cs
