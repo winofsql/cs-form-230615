@@ -6,6 +6,8 @@
 
 ![image](https://github.com/winofsql/subject-230615/assets/1501327/d6670eb8-7440-4d11-ba01-a20ed5d1be00)
 
+![image](https://github.com/winofsql/subject-230615/assets/1501327/cbfa6b8d-437c-4c30-bb30-6ede6d2a15ef)
+
 
 ### [ChatGpt で聞いた Form に画像をドラッグして表示](https://chat.openai.com/share/00494f66-40f7-4a02-984b-cfb64e612308)
 
